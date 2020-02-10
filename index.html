@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My site</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&display=swap&subset=cyrillic"
+        rel="stylesheet"> <!-- googlefonts.com-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- что бы во всех браузерах стили смотрелись одинаково normalize.css -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__contacts">
+                    <a class="header__phone" href="tel:380932785555">+38 (093) 278 55 55</a>
+                    <a class="header__email" href="#">goldenstortyinfo@gmail.com</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Бесплатная
+                        консультация</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div clas="container">
+                <div class="header__content-inner">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="img/logo.png" alt="Golden" class="logo">
+                        </a>
+                    </div>
+                    <!--li-->
+                    <nav class="menu">
+                        <div class="header__btn-menu">
+                            <span class="icon-bars"></span>
+                        </div>
+                        <ul>
+                            <li><a href="#servises__id">Наши услуги</a></li>
+                            <li><a href="#about__id">Об агентстве</a></li>
+                            <li><a href="#newss__id">Новости</a></li>
+                            <li><a href="#footer__id">Контакты</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+        <section class="slider">
+            <div class="container">
+                <div class="slider__inner">
+                    <div class="slider__item">
+
+                        <div class="slider__item-content">
+                            <div class="slider__tittle">
+                                Организация праздников и деловых мероприятий
+                            </div>
+                            <div class="slider__text">
+                                <h3> Каждый Праздник уникален в своем роде.<br>
+                                    Здесь нужна тщательная работа, ведь нужно подобрать сценарий праздника с любимым
+                                    персонажем, декор помещения, вкусный торт, подумать какое шоу лучше всего впишется в
+                                    сценарий мероприятия.</h3>
+                                <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                                    Оставить заявку
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item-content">
+                            <div class="slider__tittle">
+                                Организация мероприятия любого уровня ПОД КЛЮЧ!
+                            </div>
+                            <div class="slider__text">
+                                <h3>Мы координаторы вашего идеального меропрития!<br>МЫ cоздадим яркие
+                                    эмоции!<br>Избавим вас от забот!</h3>
+                            </div>
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                                Оставить заявку
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item-content">
+                            <div class="slider__tittle">
+                                Организация вечеринок и детских праздников
+                            </div>
+                            <div class="slider__text">
+                                <h3>Наши маленькие клиенты и их родителя очень требовательны и капризны, но мы очень
+                                    любим организовывать детские дни рождения и другие подобные мероприятия.</h3>
+                            </div>
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                                Оставить заявку
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--2 СЕКЦИЯ-->
+        <section class="services">
+            <div class="container">
+                <div class="services__top">
+                    <div class="services__title-box">
+                        <div class="services__title">
+                            <h3 id="servises__id">Наши Услуги</h3>
+                        </div>
+                        <div class="services__text">
+                            Мы занимаемся созданием мероприятий, которые максимально удовлетворяют потребности наших
+                            клиентов.
+                            Наша основная специализация - организация и проведение дня рождения, свадьбы, детских
+                            праздников, корпоративов и деловых мероприятий.
+                        </div>
+                    </div>
+                </div>
+                <!--ЧАСТЬ ЧТО СОСТ С 6 ЭЛЕМЕНТОВ-->
+                <div class="services__items">
+                    <div class="services__item">
+                        <img src="img/happybirthday-225x225.jpg" alt="">
+                        <div class="services__item-title">
+                            Дни рождения
+                        </div>
+                        <div class="services__item-text">
+                            Организация незабываемого дня рождения для вас и ваших гостей
+                        </div>
+                        <div class="services__item-btn">
+                            <a class="services__item-link" href="#">Подробнее</a>
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                                Заказать
+                            </a>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <img src="img/MERRY.jpg" alt="">
+                        <div class="services__item-title">
+                            Свадьбы
+                        </div>
+                        <div class="services__item-text">
+                            Создание необходимой атмосферы и организация свадебного торжества
+                        </div>
+                        <div class="services__item-btn">
+                            <a class="services__item-link" href="#">Подробнее</a>
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                                Заказать
+                            </a>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <img src="img/children.jpeg" alt="">
+                        <div class="services__item-title">
+                            Детские праздники
+                        </div>
+                        <div class="services__item-text">
+                            Дни рождения, утренники, выпускные, новогодние праздники и вечеринки
+                        </div>
+                        <div class="services__item-btn">
+                            <a class="services__item-link" href="#">Подробнее</a>
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                                Заказать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="services__items">
+            <div class="services__item">
+                <img src="img/images-10.jpeg" alt="">
+                <div class="services__item-title">
+                    Корпоративы
+                </div>
+                <div class="services__item-text">
+                    Организация корпоративного мероприятия для вашей компании
+                </div>
+                <div class="services__item-btn">
+                    <a class="services__item-link" href="#">Подробнее</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                        Заказать
+                    </a>
+                </div>
+            </div>
+            <div class="services__item">
+                <img src="img/news-1.jpeg" alt="">
+                <div class="services__item-title">
+                    Деловые мероприятия
+                </div>
+                <div class="services__item-text">
+                    Тимбилдинги, конференции, форумы, презентации, выставки и семинары
+                </div>
+                <div class="services__item-btn">
+                    <a class="services__item-link" href="#">Подробнее</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                        Заказать
+                    </a>
+                </div>
+            </div>
+            <div class="services__item">
+                <img src="img/zima.jpg" alt="">
+                <div class="services__item-title">
+                    Новый год, новогодние вечеринки
+                </div>
+                <div class="services__item-text">
+                    Много гозвлечений и шоу програм, отражающие символ наступающего года
+                </div>
+                <div class="services__item-btn">
+                    <a class="services__item-link" href="#">Подробнее</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                        Заказать
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
+        <!-- 3 СЕКЦИЯ -->
+        <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__title">
+                        <h2 id="about__id">Об агентстве</h2>
+                    </div>
+                    <div class="about__text">
+                        Мы занимаемся созданием мероприятий, которые максимально удовлетворяют потребности наших
+                        клиентов. Наша основная специализация - организация и проведение дня рождения, свадьбы, детских
+                        праздников, корпоративов и деловых мероприятий. В работе мы стараемся максимально облегчить
+                        процесс организации для клиента. Предоставляемые нами ивент услуги избавляют наших клиентов от
+                        многочисленных поездок, лишних контактов с артистами , непонятных платежей и договоров. К
+                        мероприятиям мы привлекаем людей и компании, с которыми неоднократно работали ранее. Это
+                        позволяет минимизировать вероятность возникновения форс-мажорных ситуаций.
+                    </div>
+                    <a href="#" class="about__btn default-btn">
+                        Узнать больше
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- 4 -->
+        <section class="form">
+            <div class="container">
+                <div class="form__inner">
+                    <div class="form__content">
+                        <div class="form__title-box">
+                            <div class="form__title">
+                                <h3>Наши услуги</h3>
+                            </div>
+                            <div class="form__text">
+                                В работе мы стараемся максимально облегчить процесс организации для клиента.
+                            </div>
+                            <div class="form__box">
+                                <form>
+                                    <div class="form__box-inner">
+                                        <div class="form__box-left">
+                                            <label>
+                                                E-mail
+                                                <input type="text">
+                                            </label>
+                                            <label>
+                                                Контактный телефон
+                                                <input type="text">
+                                            </label>
+                                            <label>
+                                                ФИО
+                                                <input type="text">
+                                            </label>
+                                            <label>
+                                                Тема вопроса
+                                                <select>
+                                                    <option>Дни рождения</option>
+                                                    <option>Свадьбы</option>
+                                                    <option>Детские праздники</option>
+                                                    <option>Корпоративы</option>
+                                                    <option>Деловые мероприятия</option>
+                                                    <option>Новый год, новогодние вечеринки</option>
+                                                </select>
+                                                </lebel>
+                                        </div>
+                                        <div class="form__box-right">
+                                            <label>
+                                                Сообщение
+                                                <textarea></textarea>
+                                            </label>
+                                            <button class="default-btn" type="submit">Получить консультацию</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--5-->
+        <section class="advantages">
+            <div class="container">
+            </div>
+        </section>
+        <section class="advantagess">
+            <div class="container">
+                <div class="advantagess__inner">
+                    <div class="advantagess__text">
+                        <h2>Мы уточняем все ваши пожелания</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantagesss">
+            <div class="container">
+            </div>
+        </section>
+        <section class="advantagess">
+            <div class="container">
+                <div class="advantagess__inner">
+                    <div class="advantagess__text">
+                        <h2>Детально прорабатываем выбранную концепцию и делаем подробный просчёт</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+            </div>
+        </section>
+        <!-- НОВОСТИ -->
+        <section class="newss">
+            <div class="container">
+                <div class="newss__top">
+                    <div class="newss__title-box">
+                        <div class="newss__title">
+                            <h3 id="newss__id">Наши услуги</h3>
+                        </div>
+                        <div class="newss__text">
+                            Обеспечим комфортное обслуживание вашего торжества
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="news__inner">
+            <div class="news__item">
+                <div class="news__title>">
+                    <h2>Услуги на праздники, мероприятия</h2>
+                </div>
+                <div class="news__text">
+                    В Компании Golden огромная база ведущих, музыкантов, артистов и других услуг, которая постоянно
+                    обновляется. Вас ждут ретро, современные и инновационные жанры и шоу-программы. Все презентации
+                    исполнителей на видео и фото с комментариями, поэтому многие праздничные и свадебные агентства Киева
+                    и Украины частые гости на нашем сайте и уверенно пользуются нашими услугами. Вы можете напрямую
+                    обратиться к нам и существенно сэкономить.<br>
+                    <h2>Процесс организации мероприятий предполагает работу с двумя разновидностями услуг.</h2>
+                    1. Базовые услуги являются обязательной составляющей проведения любого праздника
+                    и бизнес-мероприятия. Сюда входит сфера общепита, включающая организацию банкета, поиск локации
+                    (места проведения), дизайн и оформление (флористика, шары, мебель и т. д.), трансфер, всевозможные
+                    аксессуары и визаж (для молодоженов на свадьбу) и т. п.<br>
+                    2. Развлекательные и технические услуги разделеные на две группы:
+                    <ol>
+                        <li>1. основная группа отвечает за проведение банкетно-развлекательной и официальной частей на
+                            праздниках и мероприятиях, куда входят услуги ведущих, музыкальное сопровождение и
+                            сопутствующее техническое обеспечение: аренда звуковой, световой и другой медиа-аппаратуры
+                            (кинопроектор, экран, телевизор, доска для презентаций, баннеры) и т. д.;</li>
+                        <li>2. второстепенная группа развлекательных и технических услуг призвана дополнить предыдущую и
+                            в нее входят услуги артистов, видео-операторов, фотографов, пиротехников, турагентов и
+                            другие.</li>
+                    </ol>
+                </div>
+            </div>
+            <!--2  столбца новостей-->
+            <a href="#" class="news__blog">
+                <div class="news__images">
+                    <img src="img/news-1.jpeg" alt="">
+                    <div class="news__date">01.03</div>
+                </div>
+                <div class="news__blog-title">
+                    Скидки на мероприятия
+                </div>
+                <div class="news__blog-text">
+                    Каждый месяц действуют различные скидки на мероприятия. В марте скидка 10% на корпоративы и деловые
+                    мероприятия.
+                </div>
+            </a>
+            <a href="#" class="news__blog">
+                <div class="news__images">
+                    <img src="img/news-2.jpeg" alt="">
+                    <div class="news__date">01.03</div>
+                </div>
+                <div class="news__blog-title">
+                    Скидки на День рождения
+                </div>
+                <div class="news__blog-text">
+                    Каждому именинницу на организацию торжества скидка 10%
+                </div>
+            </a>
+        </div>
+        <!--FOOTER -->
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__info">
+                            <div class="footer__title">
+                                <h3 id="footer__id">Организация мероприятий и праздников</h3>
+                            </div>
+                            <div class="footer__text">
+                                Лучшие праздники для детей и взрослых за доступной ценой
+                            </div>
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">
+                                Бесплатная консультация
+                            </a>
+                            <ul class="footer__list">
+                                <li><a class="footer__phone" href="tel380932785555:">+38 (093) 278 55 55</a></li>
+                                <li><a href="#">goldenstortyinfo@gmail.com</a></li>
+                                <li><a class="footer__adress" href="#">ул. Раисы Окипной, 4 Киев 02000</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__map">
+                            <iframe height="250px"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.525215699321!2d30.59270881573137!3d50.44994367947523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfee0b840987%3A0x3f3a3c102ad275da!2z0YPQuy4g0KDQsNC40YHRiyDQntC60LjQv9C90L7QuSwgNCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1578626563891!5m2!1sru!2sua"
+                                frameborder="0" style="border:0;" allowfullscreen="">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <div class="container">
+                    <div class="copy__text">
+                        Copyright © 2019 - 2020 :: Golden'Company - организация, проведение праздников, мероприятий в
+                        Киеве, Украине
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--кнопка jquary EMAIL-->
+        <div id="modal">
+            <form>
+                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="Ваш телефон">
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
